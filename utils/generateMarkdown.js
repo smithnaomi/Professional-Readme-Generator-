@@ -77,63 +77,53 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  const badge = renderLicenseBadge(data.license);
-  const license_body = renderLicenseSection(data.license);
   return `# ${data.title}
-    ${badge}
-    
-    ## Description
-    ${data.description}
-    
-    ## Table of Contents
 
-    - [Introduction](example)
-    - [Overview](example2)
-    - [Installations](example3)
-    - [Usage](example4)
-    - [License](example5)
-    - [Contributing](example6)
-    - [Test](example7)
-    - [Contact](example8)
+  ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 
-## This is the introduction text
-## Description text 
-## Needed to use application
-## How to use application 
-## License choice
-## Text to accept contributions
-## How to run application
-## How to get reach developer 
-    
+  ## Description
+  ${data.description}
 
-    ## Introduction
-    ${data.instruction}
+  ## Table of Contents
 
-    ## Overview
-    ${data.overview}
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
-    ## Installations
-    ${data.installation}
+  ## Installation
 
-    ## Usage
-    ${data.usage}
+  To install necessary dependencies, please run the following command:
+  \' \' \'
+  ${data.installation}
+  \' \' \'
 
-    ## License
-    ${license_body}
-    
-    ## Contributing
-    ${data.contribution}
-        
-    ## Test
-    ${data.test}
-        
-    ## Contact
-    If you would like to contact me, please refer to the following:
-    <br/>
-    [github](github.com/${data.git_name})
-    <br/>
-    <${data.email}>
-  `;
+  # Usage
+  ${data.usage}
+  ${renderLicenseSection(data.license)}
+
+  ## Contributing
+  ${data.contributing}
+  
+  ## Tests
+  To test, please run the following command;
+  \' \' \'
+
+  ## Questions
+  For any questions about the project, please contact me by either of the following links:
+
+  * Email = ${data.email}
+
+  or visit my GitHub profile:
+
+  * GitHub - ${
+    "[" + data.github + "]" + "(https://github.com/" + data.github + ")"
+  }
+
+`;
 }
 
 module.exports = generateMarkdown;
