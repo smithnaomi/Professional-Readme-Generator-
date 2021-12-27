@@ -1,7 +1,7 @@
 # Readme Generator
 
-  ![GitHub license](https://img.shields.io/badge/license-Eclipse-blue.svg)
-    https://opensource.org/licenses/EPL-1.0
+  ![GitHub license](https://img.shields.io/badge/license-BSD 3-clause-blue.svg)
+    https://opensource.org/licenses/BSD-3-Clause
 
   ## Description
   undefined
@@ -20,15 +20,15 @@
 
   To install necessary dependencies, please run the following command:
   ' ' '
-  Install accurate packages
+  run accurate packages
   ' ' '
 
   # Usage
-  Insert accurate information to describe developers project
-  This project is using the license Eclipse. See https://opensource.org/licenses/EPL-1.0 for more information.
+  Insert accurate information to describe developer's application
+  This project is using the license BSD 3-clause. See https://opensource.org/licenses/BSD-3-Clause for more information.
 
   ## Contributing
-  Please reach out via email and provided Github
+  Please reach out via email or provided Github
   
   ## Tests
   To test, please run the following command;
