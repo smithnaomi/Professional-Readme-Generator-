@@ -27,6 +27,7 @@ Install accurate packages
 
 ![readme screenshot](assets/ReadmeandTerminal.png)
 
+![Demo](assets/ReadmeGenerator.gif)
 [Application Live Demo](https://watch.screencastify.com/v/94v8fgWcbpiE8PU2N1Z6)
 
 ## Contributing
