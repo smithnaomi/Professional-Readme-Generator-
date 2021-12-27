@@ -1,7 +1,7 @@
-# Readme Generator 
+# Readme Generator
 
-  ![GitHub license](https://img.shields.io/badge/license-Boost-blue.svg)
-    https://www.boost.org/LICENSE_1_0.txt
+  ![GitHub license](https://img.shields.io/badge/license-Eclipse-blue.svg)
+    https://opensource.org/licenses/EPL-1.0
 
   ## Description
   undefined
@@ -20,15 +20,15 @@
 
   To install necessary dependencies, please run the following command:
   ' ' '
-  Need to run accurate packages
+  Install accurate packages
   ' ' '
 
   # Usage
   Insert accurate information to describe developers project
-  This project is using the license Boost. See https://www.boost.org/LICENSE_1_0.txt for more information.
+  This project is using the license Eclipse. See https://opensource.org/licenses/EPL-1.0 for more information.
 
   ## Contributing
-  Please reach out via email or provided github
+  Please reach out via email and provided Github
   
   ## Tests
   To test, please run the following command;
