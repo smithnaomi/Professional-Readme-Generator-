@@ -1,7 +1,7 @@
-# readme gen
+# Readme Generator 
 
-  ![GitHub license](https://img.shields.io/badge/license-BSD 3-clause-blue.svg)
-    https://opensource.org/licenses/BSD-3-Clause
+  ![GitHub license](https://img.shields.io/badge/license-Boost-blue.svg)
+    https://www.boost.org/LICENSE_1_0.txt
 
   ## Description
   undefined
@@ -20,15 +20,15 @@
 
   To install necessary dependencies, please run the following command:
   ' ' '
-  install it all
+  Need to run accurate packages
   ' ' '
 
   # Usage
-  use it correctly
-  This project is using the license BSD 3-clause. See https://opensource.org/licenses/BSD-3-Clause for more information.
+  Insert accurate information to describe developers project
+  This project is using the license Boost. See https://www.boost.org/LICENSE_1_0.txt for more information.
 
   ## Contributing
-  please help
+  Please reach out via email or provided github
   
   ## Tests
   To test, please run the following command;
